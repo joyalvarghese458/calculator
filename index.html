@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    
+    <script src="script.js"></script>
+</head>
+<link rel="stylesheet" href="calcu.css">
+<body>
+    <script src="script.js"></script>
+   <div id="container">
+        <div class="display">
+         <input id="inp" type="text" style="pointer-events: none;">
+        </div>
+        <div class="main">
+            <button class="btn" onclick="btnclick(1)" type="submit" style="height: 50px; width: 75px;">1</button>
+            <button class="btn" onclick="btnclick(2)" type="submit" style="height: 50px; width: 75px;">2</button>
+            <button class="btn" onclick="btnclick(3)" type="submit" style="height: 50px; width: 75px;">3</button>
+            <button class="btn" onclick="btnclick('/')" type="submit" style="height: 50px; width: 75px; background: hsl(197, 65%, 66%);">/</button>
+            <button class="btn" onclick="btnclick(4)" type="submit" style="height: 50px; width: 75px;">4</button>
+            <button class="btn" onclick="btnclick(5)"type="submit" style="height: 50px; width: 75px;">5</button>
+            <button class="btn" onclick="btnclick(6)"type="submit" style="height: 50px; width: 75px;">6</button>
+            <button class="btn" onclick="btnclick('*')" type="submit" style="height: 50px; width: 75px;  background: hsl(197, 65%, 66%);">*</button>
+            <button class="btn" onclick="btnclick(7)" type="submit" style="height: 50px; width: 75px;">7</button>
+            <button class="btn" onclick="btnclick(8)" type="submit" style="height: 50px; width: 75px;">8</button>
+            <button class="btn" onclick="btnclick(9)" type="submit" style="height: 50px; width: 75px;">9</button>
+            <button class="btn" onclick="btnclick('-')" type="submit" style="height: 50px; width: 75px;  background: hsl(197, 65%, 66%);">-</button>
+            <button class="btn" onclick="btnclick(0)" type="submit" style="height: 50px; width: 75px;">0</button>
+            <button class="btn" onclick="btnclick('00')" type="submit" style="height: 50px; width: 75px;">00</button>
+            <button class="btn" onclick="btnclick('.')" type="submit" style="height: 50px; width: 75px;">.</button>
+            <button class="btn" onclick="btnclick('+')" type="submit" style="height: 50px; width: 75px;  background: hsl(197, 65%, 66%);">+</button>
+            <button class="btn" onclick="allclear()" type="submit" style="height: 50px; width: 75px; background: red;">AC</button>
+            <button class="btn" onclick="allclear()" type="submit" style="height: 50px; width: 75px;  background: red;">DEL</button>
+            <button class="btn" onclick="eqclick()" type="submit" style="height: 50px; width: 154px; background: rgb(224, 224, 45);">=</button>
+    
+        </div>
+    
+   </div>
+    
+
+
+
+</body>
+</html>

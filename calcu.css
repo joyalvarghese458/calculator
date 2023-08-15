@@ -1,0 +1,21 @@
+.display{
+    width: 312px;
+    height: 100px;
+    background: rgb(193, 210, 193);
+    border: 5px solid;
+}
+.main{
+    width: 312px;
+    height: 250px;
+    background: wheat;
+    border: 5px solid;
+}
+#inp{
+    width: 98%;
+    height: 96%
+    
+}
+#container{
+    margin-left: 40%;
+    margin-top: 10%;
+}
